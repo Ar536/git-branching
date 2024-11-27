@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+    <form action="result.html" method="post">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" placeholder="Masukan nama Anda" minlength="4" maxlength="10" required>
+
+        <br/>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Masukan email Anda" required>
+
+        <br>
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd" placeholder="*******">
+
+        <br>
+        <label>Alamat:<textarea rows="5"  cols="10" required></textarea></label>
+
+        <br>
+        <label for="num">Jumlah beli:</label>
+        <input type="number" name="" id="num" min="1" max="4">
+
+        <br>
+        <label><input type="radio" name="jk">Laki-laki</label>
+        <label><input type="radio" name="jk">Perempuan</label>
+
+        <hr>
+        <label><input type="checkbox" name="">Menu 1</label>
+        <label><input type="checkbox" name="">Menu 2</label>
+        <label><input type="checkbox" name="">Menu 3</label>
+        <label><input type="checkbox" name="">Menu 4</label>
+        <label><input type="checkbox" name="">Menu 5</label>
+
+        <br>
+        <select name="" id="">
+            <option value="">Indonesia</option>
+            <option value="">Malaysia</option>
+            <option value="">Thailand</option>
+            <option value="">Vietnam</option>
+            <option value="">Laos</option>
+            <option value="">Singapura</option>
+            <option value="">Myanmar</option>
+            <option value="">Kambodia</option>
+            <option value="">Filipina</option>
+            <option value="">Brunei Darussalam</option>
+        </select>
+
+          <br>
+        <button type="submit">Tombol Button</button>
+        <button type="reset">Tombol Reset</button>
+        <input type="submit" value="Tombol submit">
+
+    </form>
+
+</body>
+</html>
